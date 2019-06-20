@@ -1,17 +1,16 @@
-<style>
 body{
     padding: 0;
     margin: 0;
-    background-color: lightsteelblue;
+    background-image: url(../images/wheat.png); 
 }
 
 aside{
-    text-align: center;
+    text-align: left;
 }
 
 figure{
     float: right;
-    width: 10em;
+    width: 11em;
     margin-right: 0;
     margin-top: 0;
     margin-left: 1em;
@@ -46,7 +45,7 @@ nav ul {
 }
 
 nav ul li {
-    background-color: lightsteelblue;
+    background-color:lightgray;
     margin-right: 1em;
     padding: .5em 1em;
 }
@@ -56,12 +55,12 @@ nav ul li {
     margin-right: auto;
     min-width: 25rem;
     max-width: 60rem;
-    background-color:#4682B4;
+    background-color:#192f3f;
     padding: 1em;
 }
 
 #container > * {
-    background-color:#F0F8FF;
+    background-image: url(../images/leaves-pattern.png);
     margin: 1em;
     padding: 1em;
 }
@@ -96,4 +95,3 @@ nav ul li {
             "footer"
     }
 }
-</style>
