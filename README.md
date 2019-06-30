@@ -1,2 +1,2 @@
-# portfolio
-this repository contains all the content of my portfolio page
+# Bootstrap-Portfolio
+A new updated portfolio site coded with bootstrap instead of original CSS

@@ -2,47 +2,119 @@
 <html lang="en-us">
 
 <head>
-    <meta charset="utf-8"/>
-    <title>About Me</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Monoton|Press+Start+2P&display=swap" rel="stylesheet">
-    <meta name="description" content="Profile with descriptions for Dimitrios Tsioutsiopoulos">
-    <meta name="author" content="Dimitrios Tsioutsiopoulos">
+
+  <meta charset="UTF-8">
+  <title>Bootstrap Demo</title>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/stylesheet.css">
 
 </head>
 
 <body>
-    <div id="container">
-        <header>
-            <h1>Dimitrios G. Tsioutsiopoulos</h1>
-        </header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+    <img src="assets/images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      Dimitrios G. Tsioutsiopoulos
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">About Me<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+      </li>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+ </div>
+</nav>
 
-        <nav>
-            <ul>
-                <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    <body>
-        <article>
-        <h1>Contact Info</h1>
-        <p>
-        
-        <ul>
-                <li>Email:dimitrios.g0503@gmail.com</li>
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="jumbotron">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </div>
+      
+    </div>
     
-                <li>GitHub: <a href="https://github.com/DimiGod">@DimiGod</a></li>
-    
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/tsioutsiopoulosd/">Dimitrios Tsioutsiopoulos</a></li>
-    
-        </ul>
-    </article>
-    <aside>
-        <figure>
-            <img src="https://scontent.fzty2-1.fna.fbcdn.net/v/t1.0-9/37320866_1800210926693701_4704358282960044032_o.jpg?_nc_cat=102&_nc_oc=AQkQl_DXB8Iq90wrRCfJKsXwMhrkKJseLBy95P6CVucPhDVjs4g-3mWW28kraD6jI_o&_nc_ht=scontent.fzty2-1.fna&oh=6da26ab8d0a55a2cca213d9f458c856f&oe=5DC25090"
-            <figcaption>Summit of Mt. Olympus</figcaption>
-        </figure>
-    </aside>
+    <div class="col-md-4">
 
-    </body>
+<form>
+  
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Example textarea</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+    
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem;">
+        <img src="assets/images/linkedin2.png" class="card-img-top" alt="Munchies MKE Image">
+        <div class="card-body">
+          <h5 class="card-title">Munchies MKE</h5>
+          <p class="card-text">Check out my food cart's website to see some of the work I've done!</p>
+          <a href="https://www.munchiesmke.com/" class="btn btn-primary">Check it Out!</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem;">
+        <img src="assets/images/instagram2.png" class="card-img-top" alt="Munchies MKE Image">
+        <div class="card-body">
+          <h5 class="card-title">Munchies MKE</h5>
+          <p class="card-text">Check out my food cart's website to see some of the work I've done!</p>
+          <a href="https://www.munchiesmke.com/" class="btn btn-primary">Check it Out!</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem;">
+        <img src="assets/images/facebook2.png" class="card-img-top" alt="Munchies MKE Image">
+        <div class="card-body">
+          <h5 class="card-title">Munchies MKE</h5>
+          <p class="card-text">Check out my food cart's website to see some of the work I've done!</p>
+          <a href="https://www.munchiesmke.com/" class="btn btn-primary">Check it Out!</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>    
+
+
+</body>
+</html>
+    
